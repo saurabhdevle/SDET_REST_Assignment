@@ -1,0 +1,6 @@
+2020-12-07 14:36:46,627 INFO  [log] {"success":1,"error":[],"data":{"access_token":"333b2f6bddb797fb353e1ac48a1deb06cf8e1dae","expires_in":86400,"token_type":"Bearer"}}
+2020-12-07 14:36:46,716 INFO  [log] {data={access_token=333b2f6bddb797fb353e1ac48a1deb06cf8e1dae, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2020-12-07 14:36:46,768 INFO  [log] Token value is 333b2f6bddb797fb353e1ac48a1deb06cf8e1dae
+2020-12-07 14:44:10,165 INFO  [log] {"success":1,"error":[],"data":{"access_token":"0f672c29bbc9605c032fabe2e6f631d485ba40ca","expires_in":86400,"token_type":"Bearer"}}
+2020-12-07 14:44:10,204 INFO  [log] {data={access_token=0f672c29bbc9605c032fabe2e6f631d485ba40ca, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2020-12-07 14:44:10,229 INFO  [log] Token value is 0f672c29bbc9605c032fabe2e6f631d485ba40ca

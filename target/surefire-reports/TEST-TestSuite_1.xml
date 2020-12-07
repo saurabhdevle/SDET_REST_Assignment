@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST Project Test.TestSuite 1" tests="1" failures="1" errors="0" time="3.611"><properties><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/><property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean site"/><property name="jdk.debug" value="release"/><property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/><property name="sun.stderr.encoding" value="cp437"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-07-14"/><property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp437"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="soapui.browser.disabled" value="true"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.8+10-LTS"/><property name="user.name" value="SourabhDevle"/><property name="file.encoding" value="Cp1252"/><property name="guice.disable.misplaced.annotation.check" value="true"/><property name="java.vendor.version" value="18.9"/><property name="java.io.tmpdir" value="C:\Users\SOURAB~1\AppData\Local\Temp\"/><property name="java.version" value="11.0.8"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.8\bin;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\System32;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\SourabhDevle\anaconda3;C:\Users\SourabhDevle\anaconda3\Library\mingw-w64\bin;C:\Users\SourabhDevle\anaconda3\Library\usr\bin;C:\Users\SourabhDevle\anaconda3\Library\bin;C:\Users\SourabhDevle\anaconda3\Scripts;C:\Users\SourabhDevle\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\SourabhDevle\AppData\Local\Programs\Python\Python39\;C:\Users\SourabhDevle\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\SourabhDevle\AppData\Local\Programs\Python\Python38-32\;C:\Users\SourabhDevle\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;;C:\Users\SourabhDevle\AppData\Roaming\npm;."/><property name="java.vendor" value="Oracle Corporation"/><property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/><property name="sun.desktop" value="windows"/><property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/><property name="sun.awt.enableExtraMouseButtons" value="true"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="user.timezone" value="Asia/Calcutta"/><property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/><property name="os.name" value="Windows 10"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\SourabhDevle"/><property name="user.language" value="en"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\SourabhDevle\Documents\Rest\SDET-REST-Assignment-upskills-soapui-project"/><property name="os.arch" value="amd64"/><property name="maven.multiModuleProjectDirectory" value="C:\Users\SourabhDevle\Documents\Rest\SDET-REST-Assignment-upskills-soapui-project"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.8+10-LTS"/><property name="java.class.version" value="55.0"/></properties><testcase name="TestCase 1" time="3.611"><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>RESTGroovyScript Failed</b></h3><pre>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 13: unexpected char: '\' @ line 13, column 26.
+   def FilePath = "C:\\Users\SourabhDevle\\Documents\\Rest\\Category.xls"
+                            ^
+org.codehaus.groovy.syntax.SyntaxException: unexpected char: '\' @ line 13, column 26.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:135)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:108)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:162)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:912)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:574)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:279)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:258)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:613)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:625)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:652)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:643)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:152)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:97)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: Script1.groovy:13:26: unexpected char: '\'
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mESC(GroovyLexer.java:2180)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mSTRING_CTOR_END(GroovyLexer.java:2226)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mSTRING_LITERAL(GroovyLexer.java:1985)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.nextToken(GroovyLexer.java:468)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer$1.nextToken(GroovyLexer.java:258)
+	at groovyjarjarantlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at groovyjarjarantlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at groovyjarjarantlr.LLkParser.LA(LLkParser.java:52)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.nls(GroovyRecognizer.java:793)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.varInitializer(GroovyRecognizer.java:2681)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDeclarator(GroovyRecognizer.java:7928)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.listOfVariables(GroovyRecognizer.java:7882)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDefinitions(GroovyRecognizer.java:2278)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.declaration(GroovyRecognizer.java:2140)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.statement(GroovyRecognizer.java:1208)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:757)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:131)
+	... 26 more
+
+1 error
+
+</pre><hr/>]]></failure></testcase></testsuite>
